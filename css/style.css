@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#gameboard {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 600px;
+    margin: 0 auto 20px;
+}
+
+.tile {
+    width: 200px;
+    height: 200px;
+    font-size: 180px;
+    border: 1px solid;
+}
+
+#message{
+    font-size: 76px;
+    color: rebeccapurple;
+}
+
+.x:before {
+    content: 'X';
+    width: 200px;
+    height: 200px;
+    font-size: 180px;
+    color: rebeccapurple;
+
+}
+
+.o:before {
+    content: 'O';
+    width: 200px;
+    height: 200px;
+    font-size: 180px;
+    color: rebeccapurple;
+
+}
+
+.scoreboard {
+    padding: 0;
+    list-style: none;
+    font-size: 1.5rem;
+}
